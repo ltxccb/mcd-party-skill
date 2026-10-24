@@ -64,5 +64,7 @@ query-nearby-stores（选门店）→ query-meals（实时菜单）
 |------|------|
 | `CONTEST_DECLARATION.md` | 官方参赛声明（原样引用，未做任何修改） |
 | `MCP_INTEGRATION.md` | 麦当劳 MCP 工具集成说明 |
-| `party_planner.py` | 核心规划脚本（三档方案生成 + 核价链路） |
-| `demo_data.py` | 演示数据生成器（输出 data.js） |
+| `scripts/party_chain.py` | MCP 链路编排（节流/退避/dry_run） |
+| `scripts/party_planner.py` | 方案组装 + calculate-price 真实核价 |
+| `scripts/demo_data.py` | 演示快照 data.js 生成器 |
+
